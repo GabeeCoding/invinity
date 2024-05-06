@@ -1,0 +1,19 @@
+{
+  "name": "invinity",
+  "module": "src/index.tsx",
+  "type": "module",
+  "scripts": {
+    "dev": "bun build.ts && python3 -m http.server -d dist 8080",
+    "serve": "python3 -m http.server -d dist 8080",
+    "build": "bun build.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "preact": "^10.21.0"
+  }
+}

@@ -1,0 +1,11 @@
+todo list:
+
+FIRST, setup PWA and service worker and caching and all that good stuff, maybe some integration with the build system would be cool too
+
+- PWA setup and cache everything (DESIGN PHILOSOPHY: functions for that, store everything in a db)
+	- non-pwa mode should use db too
+- instance selector, settings page
+- instance rotator
+- offline music downloads
+- offline playlists
+- import/export data (entire db?)

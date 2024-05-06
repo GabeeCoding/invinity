@@ -1,0 +1,14 @@
+{
+  "name": "Invinity Music Player",
+  "description": "Plays music using Invidious API",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "short_name": "Invinity",
+  "start_url": "/index.html"
+}
